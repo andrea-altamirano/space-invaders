@@ -1,15 +1,12 @@
-
-
-//OBJETIVO : INGREDIENTES
-
-
-bin/test : bin/test.cpp
-	g++ bin/test.cpp -o bin/test
+bin/test : src/tui_test.cpp
+	g++ src/tui_test.cpp -o bin/test -std=c++2a -lftxui-screen -lftxui-component -lftxui-dom
 
 ejecutar : bin/test
 	./bin/test
+
 hola : receta2
-	echo Hola mundo
+	echo hola mundo
+
 receta2 :
-	echo receta2
+	echo receta
 	
