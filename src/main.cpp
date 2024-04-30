@@ -6,7 +6,7 @@
 #include <ftxui/screen/string.hpp>
 #include <ftxui/screen/terminal.hpp>
 #include <fstream>
-#include <Dibujo.hpp>
+#include <Archivo.hpp>
 
 using namespace std;
 using namespace ftxui;
